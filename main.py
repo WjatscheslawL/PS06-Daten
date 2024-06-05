@@ -1,6 +1,10 @@
-# import savetocsv
+import savetocsv
 import homework
 
+num = "1"
 
-homework.savetocsv()
-# savetocsv.savetocsv()
+match num:
+    case "1":
+        homework.savetocsv()
+    case "2":
+        savetocsv.savetocsv()
